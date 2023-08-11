@@ -1,105 +1,37 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:wght@300&display=swap');
-
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box; 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html,body{
+    width:50%;
+    margin:0 auto;
+    font-family: 'poppins', sans-serif;
 }
+
 .container{
-    max-width:80vw;
-}
-.navbar li{
-    list-style: none;
-    margin: 0 12px;
-    font-family:'Ubuntu',sans-serif ;
-}
-.navbar{
-    display: flex;
-    height: 67px;
-}
-.topleft{
-         width:50%;
-        
-}
-.topright{
-    padding:50px;
-   
-    
-}
-.section1{
-    min-height: 100px;
-}
-.flexcol{
-    flex-direction: column;
-}
-.logo{
-    font-size: 1.5em;
-}
-.src{
-    width: 210px;
-    height: 173px;
-    border-radius: 30%;
+    width:300px;
 }
 
-.src1{
-    width:70px;
-    height: 50px;
-    border-radius: 5%;
+#inputfield{
+    width:300px;
+    height:46px;
+    border:1px solid black;
+    outline:none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addToDo{
+    height:50px;
+    width:50px;
+    border:1px solid black;
+    font-size: 30px;
+    vertical-align: middle;
 }
 
-.text-center{
-    text-align: center;
-    font-size: 2em;
+.to-do{
+      margin-top: 25px;
 }
 
-.section{
-    padding-left:23px;
-    padding-right:23px;
-}
+.paragraph-style{
+    margin: 0;
+    cursor:pointer;
+    font-size: 20px;
 
-.box{
-   margin:12px 22px;
-   min-width:20vw;
-   padding:8px 0;
-   border-radius: 8px;
-   border: 2px solid black;
-   text-align:center;
-}
-.box ul{
-    list-style:none;
-}
-
-.box ul li{
-    margin:12px 2px;
-}
-
-.highlighted{
-    font-size:1.2em;
-    font-weight: bolder;
-}
-
-.box h2{
-    font-size: 2em;
-    padding:15px 0;
-}
-.section2 h1{
-    font-size:2.5em;
-
-}
-
-.section2 p{
-    padding:0.8vw;
-    text-align: center;
-}
-.section{
-    padding:73px;
-}
-.section1{
-    padding:8vw 0;
-    min-width: none;
-}
-
-footer{
-    padding:23px;
-    text-align: center;
 }
